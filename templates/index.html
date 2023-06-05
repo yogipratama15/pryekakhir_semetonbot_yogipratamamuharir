@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Judul Halaman -->
+	<title>Web App Chatbot Sembalun</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Icon -->
+	<link rel="shortcut icon" href="{{ url_for('static', filename='logo.ico') }}">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='/css/bootstrap.min.css') }} type="text/css">
+	<link rel="stylesheet" href={{ url_for('static', filename='/css/client_side.css') }}  type="text/css">
+	
+	<!-- JavaScript -->
+	<script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
+	<script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
+</head>
+
+<body id="halamanku" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			
+			<!-- Logo -->
+			<div class="navbar-header">
+				<img src={{ url_for('static', filename='/images/logo.ico') }}  alt="Semetonewako Logo" 
+				width="50" height="50" align="left">
+				<a class="navbar-brand" href="#halamanku">&#160; Semeton Ewako</a>
+			</div>
+			
+			<!-- Daftar Halaman -->
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#informasi">INFORMASI</a></li>
+					<li><a href="#aplikasi">APLIKASI</a></li>
+					<li><a href="#anggotaKelompok">ANGGOTA KELOMPOK</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Bagian Halaman (Informasi) -->
+	<div id="informasi" class="container-fluid">
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-6">
+				<!-- Deskripsi Aplikasi -->
+				<h2>Web App</h2>
+				<h4>Chatbot Sembalun</h4><br>
+				<p style="text-align: justify;text-justify: inter-word;">
+					Aplikasi ini dibuat khusus untuk memudahkan para wisatawan mendapatkan <i>informasi mengenai sembalun</i> 
+            yang dimana sembalun adalah destinasi wisata yang ada di Lombok, Nusa Tenggara Barat.Chatbot ini dirancang untuk menjawab pertanyaan-pertanyaan umum. Tujuan dibalik pembuatan Chatbot Sembalun adalah untuk memberikan akses cepat dan mudah kepada pengguna yang ingin mengetahui lebih banyak tentang Sembalun tanpa harus mencari informasi secara manual atau melalui sumber-sumber lain yang mungkin membutuhkan waktu lebih lama. 
+				</p>
+			    <br>
+
+				<!-- Tombol Mulai -->
+				<nav id="navgo" class="navbar" style="background-color:#ffffff;z-index: 0;">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a class="btn btn-default btn-lg" href="#aplikasi" style="background-color:#28ace5">Mulai</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+			<div class="col-sm-6">
+				<br>
+				<br>
+				<!-- Gambar Deskripsi Aplikasi -->
+				<img src={{ url_for('static', filename='/images/z.jpg') }} width="653" ></img>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bagian Halaman (Aplikasi) -->
+	<div id="aplikasi" data-bs-spy="scroll" data-bs-target="#navgo" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web App Chatbot Sembalun</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .msger {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+      background-image: url('/static/images/b.jpg');
+      background-size: cover;
+    }
+
+    .msger-header {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .msger-header-title {
+      font-weight: bold;
+    }
+
+    .msger-chat {
+      flex: 1;
+      overflow-y: scroll;
+      padding: 30px;
+    }
+
+    .msg {
+      display: flex;
+      margin-bottom: 30px;
+    }
+
+    .msg-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-size: cover;
+    }
+
+    .msg-bubble {
+      max-width: 70%;
+      padding: 10px 15px;
+      border-radius: 15px;
+      background-color: #f2f2f2;
+    }
+
+    .msg-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .msg-info-name {
+      font-weight: bold;
+    }
+
+    .msg-text {
+      word-wrap: break-word;
+    }
+
+    .msger-inputarea {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+
+    .msger-input {
+      flex: 1;
+      padding: 10px;
+      border: 2px solid #007bff;
+      border-radius: 25px;
+      font-size: 16px;
+      background-color: white;
+      outline: none;
+    }
+
+    .msger-send-btn {
+      margin-left: 10px;
+      border: none;
+      color: #fff;
+      border-radius: 50%;
+      background-color: #007bff;
+      cursor: pointer;
+      outline: none;
+      padding: 10px;
+    }
+  </style>
+
+  <br><br><br>
+</head>
+<body>
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        <i class="fas fa-bug"></i> Chatbot Sembalun <i class="fas fa-bug"></i>
+      </div>
+    </header>
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">Semetonbot</div>
+            <div class="msg-info-time"><?php echo date('H:i'); ?></div>
+          </div>
+          <div class="msg-text">
+           saya adalah SEMETONBOT! . silahkan bertanya , gaskeeuun 😄
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" id="textInput" placeholder="ketikan pertanyaan kamu...">
+      <button type="submit" class="msger-send-btn">Kirim</button>
+    </form>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+  <script>
+    const msgerForm = $(".msger-inputarea");
+    const msgerInput = $(".msger-input");
+    const msgerChat = $(".msger-chat");
+
+    // Icons made by Freepik from www.flaticon.com
+    const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
+    const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
+    const BOT_NAME = "SembalunBot";
+    const PERSON_NAME = "Kamu";
+
+    msgerForm.on("submit", event => {
+      event.preventDefault();
+
+      const msgText = msgerInput.val();
+      if (!msgText) return;
+
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+      msgerInput.val("");
+      botResponse(msgText);
+    });
+
+    function appendMessage(name, img, side, text) {
+      const msgHTML = `
+        <div class="msg ${side}-msg">
+          <div class="msg-img" style="background-image: url(${img})"></div>
+
+          <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">${name}</div>
+              <div class="msg-info-time">${formatDate(new Date())}</div>
+            </div>
+
+            <div class="msg-text">${text}</div>
+          </div>
+        </div>
+      `;
+
+      msgerChat.append(msgHTML);
+      msgerChat.scrollTop(msgerChat[0].scrollHeight);
+    }
+
+    function botResponse(rawText) {
+      $.get("/get", { msg: rawText }).done(function(data) {
+        const msgText = data;
+        appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+      });
+    }
+
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+  </script>
+</body>
+
+</html>
+
+       
+    
+<br><br><br>
+	<!-- Bagian Halaman (Anggota Kelompok) -->
+<div id="anggotaKelompok" class="container-fluid text-center">
+  <h2>ANGGOTA KELOMPOK</h2>
+  <h4>Tim Deployment dan Tim NLP</h4>
+  <br>
+  <div class="row slideanim">
+      <div class="col-sm-6 col-md-3">
+          <img src="{{ url_for('static', filename='/images/Yogi.jpeg') }}" width="290" />
+          <h4>Yogi Pratama Muharir</h4>
+          <p>Universitas Teknologi Mataram</p>
+      </div>
+      <div class="col-sm-6 col-md-3">
+          <img src="{{ url_for('static', filename='/images/nurul.jpeg') }}" width="300" />
+          <h4>Nurul Hasanah</h4>
+          <p>Universitas Nahdlatul Wathan Mataram</p>
+      </div>
+      <div class="col-sm-6 col-md-3">
+          <img src="{{ url_for('static', filename='/images/widuri.jpeg') }}" width="220" />
+          <h4>Nur Fitriana Widuri</h4>
+          <p>STIE AMM Mataram</p>
+      </div>
+      <div class="col-sm-6 col-md-3">
+          <img src="{{ url_for('static', filename='/images/ladya.jpeg') }}" width="220" />
+          <h4>Jamyatul Ladyanisa</h4>
+          <p>Universitas Teknologi Mataram</p>
+      </div>
+  </div>
+</div>
+
+
+	        <!-- Footer -->
+       <footer style="display: flex; justify-content: center;">
+        <div class="col-sm-6">
+        <small>copyright &copy; 2023 - Semetonewako. all Right Reserved.</small>
+    </div>	
+  </footer>
+
+	
+  <!-- JavaScript untuk Animasi Scroll dan Prediksi Model -->
+	<script  src={{ url_for('static', filename='/js/client_side.js') }}></script>
+
+</body>
+</html>

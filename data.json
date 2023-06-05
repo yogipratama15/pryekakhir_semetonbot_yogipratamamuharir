@@ -1,0 +1,752 @@
+{
+    "intents": [
+        {
+            "tag": "sapa",
+            "patterns": [
+                "Halo",
+                "Hai",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat malam"
+            ],
+            "responses": [
+                "Halo! Selamat datang di Chatbot Sembalun. Ada yang bisa saya bantu?",
+                "hai, bertemu lagi dengan Chatbot Sembaln. ada yang bisa saya bantu? "
+            ]
+        },
+        {
+            "tag": "lokasi",
+            "patterns": [
+                "Di mana Sembalun?",
+                "Dimana lokasi Sembalun?",
+                "Sembalun ada di mana?",
+                "where is sembalun?",
+                "dimana letak sembalun?"
+            ],
+            "responses": [
+                "Sembalun terletak di Lombok Timur, Nusa Tenggara Barat, Indonesia. Sembalun dikenal karena keindahan alamnya, terutama Gunung Rinjani.",
+                "Sembalun berada di sebuah kecamatan di kabupaten Lombok Timur, Nusa Tenggara Barat, Indonesia. Kecamatan Sembalun memiliki luas wilayah 217,08 Km2 dan terdiri dari 6 desa yaitu Desa Sembalun Bumbung, Desa Sembalun Lawang, Desa Sajang, Desa Bilok Petung, Desa Sembalun, dan Desa Sembalun Timba Gading"
+            ]
+        },
+        {
+            "tag": "gunung_rinjani",
+            "patterns": [
+                "Ceritakan tentang Gunung Rinjani",
+                "Apa yang menarik tentang Gunung Rinjani?",
+                "jelaskan mengenai Gunung Rinjani ",
+                "profil gunung rinjani",
+                "apa yang anda ketahui tentang gunung rinjani"
+            ],
+            "responses": [
+                "Gunung Rinjani adalah gunung berapi aktif kedua tertinggi di Indonesia. Terkenal dengan pemandangan alamnya yang menakjubkan dan trek pendakian yang menantang. Gunung Rinjani juga memiliki Danau Segara Anak yang indah di bawahnya.",
+                "Gunung Rinjani merupakan gunung berapi tertinggi kedua di Indonesia dengan ketinggian 3.726 mdpl . Gunung ini terletak di utara Pulau Lombok dan masuk dalam kawasan Taman Nasional Gunung Rinjani. Di kaki gunung terdapat sabana yang terhampar luas dan beberapa danau kawah, dan yang paling terkenal ialah Sagara Anak. Selain itu, Gunung Rinjani juga memiliki legenda asal-usul yang menarik untuk diketahui.  Received message. Gunung Rinjani merupakan gunung berapi tertinggi kedua di Indonesia dengan ketinggian 3.726 mdpl . Gunung ini terletak di utara Pulau Lombok dan masuk dalam kawasan Taman Nasional Gunung Rinjani. Di kaki gunung terdapat sabana yang terhampar luas dan beberapa danau kawah, dan yang paling terkenal ialah Sagara Anak. Selain itu, Gunung Rinjani juga memiliki legenda asal-usul yang menarik untuk diketahui. "
+            ]
+        },
+        {
+            "tag": "trek_pendakian",
+            "patterns": [
+                "Bagaimana cara mendaki Gunung Rinjani?",
+                "Saya ingin mendaki Gunung Rinjani",
+                "Apa persiapan yang diperlukan untuk pendakian Gunung Rinjani?",
+                "apa saja yang harus disiapkan untuk mendaki ke gunung rinjani?",
+                "apa saja yang perlu disiapkan untuk mendaki ke gunung rinjani?"
+            ],
+            "responses": [
+                "Untuk mendaki Gunung Rinjani, Anda dapat mendaftar dengan agen pendakian yang berlisensi. Persiapkan kondisi fisik yang baik dan bawa peralatan pendakian yang sesuai. Pastikan Anda mematuhi aturan keselamatan dan menjaga kebersihan gunung saat mendaki.",
+                "Bagus sekali! Mendaki Gunung Rinjani memang menjadi salah satu destinasi wisata yang populer di Indonesia. Sebelum mendaki, pastikan Anda sudah mempersiapkan fisik dan mental dengan baik. Ada beberapa persiapan yang perlu dilakukan seperti mempersiapkan perlengkapan pendakian, mempersiapkan fisik dengan olahraga teratur dan menjaga pola makan yang sehat. Selain itu, pastikan Anda telah memiliki izin pendakian dari Taman Nasional Gunung Rinjani."
+            ]
+        },
+        {
+            "tag": "sembalun_lawang",
+            "patterns": [
+                "Apa yang menarik di Sembalun Lawang?",
+                "Ceritakan tentang Sembalun Lawang",
+                "Tempat apa yang harus saya kunjungi di Sembalun Lawang?",
+                "rekomendasikan tempat yang harus saya kunjungi di sembalun lawang",
+                "apa itu sembalun lawang?"
+            ],
+            "responses": [
+                "Sembalun Lawang adalah desa di Sembalun yang menawarkan pemandangan alam yang memukau. Anda dapat mengunjungi Bukit Pergasingan untuk melihat matahari terbit yang indah atau menjelajahi kebun stroberi yang terkenal di daerah ini.",
+                "Sembalun Lawang adalah sebuah desa di kecamatan Sembalun Lombok Timur, Nusa Tenggara Barat. Desa ini terletak di bawah kaki Gunung Rinjani dan memiliki ketinggian 1.150 meter di atas permukaan laut. Desa ini memerlukan waktu sekitar 3 jam menggunakan kendaraan roda 2 maupun roda 4 dari Kota Mataram atau 1,5 jam dari Kota Selong. Terdapat beberapa objek wisata menarik di Sembalun Lawang seperti Bukit Pergasingan, Air Terjun Dewi Selendang, Air Terjun Mangku Sakti, Air Terjun Mangku Kodek dan Bukit Kondo."
+            ]
+        },
+        {
+            "tag": "air_terjun_tiu_kelep",
+            "patterns": [
+                "Bagaimana cara menuju Air Terjun Tiu Kelep?",
+                "Saya ingin mengunjungi Air Terjun Tiu Kelep",
+                "Ceritakan tentang Air Terjun Tiu Kelep",
+                "apa yang menarik di air terjun tiu kelep?",
+                "dimana lokasi air terjun tiu kelep?"
+            ],
+            "responses": [
+                "Air Terjun Tiu Kelep terletak di Sembalun. Untuk mencapai air terjun ini, Anda perlu melakukan trekking sekitar 1,5 jam dari desa. Air Terjun Tiu Kelep terkenal karena keindahan airnya yang jatuh dengan kuat dan kolam renang alami yang indah."
+            ]
+        },
+        {
+            "tag": "terima_kasih",
+            "patterns": [
+                "Terima kasih",
+                "Makasih",
+                "Sangat membantu",
+                "terimakasih atas informasi yang diberikan",
+                "terima kasih, sangat membantu"
+            ],
+            "responses": [
+                "Sama-sama! Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "",
+                "Saya tidak tahu",
+                "Tidak mengerti",
+                "error"
+            ],
+            "responses": [
+                "Maaf, saya tidak dapat memahami pertanyaan Anda. Bisakah Anda mengulanginya atau bertanya mengenai topik lain?"
+            ]
+        },
+        {
+            "tag": "cuaca",
+            "patterns": [
+                "Bagaimana kondisi cuaca di Sembalun hari ini?",
+                "Apakah cuaca di Sembalun cerah?",
+                "Bagaimana perkiraan cuaca di Sembalun minggu depan?",
+                "bagaimana kondisi cuaca di sembalun saat ini?",
+                "bagaimana perkiraan cuaca di sembalun besok pagi?"
+            ],
+            "responses": [
+                "Untuk informasi terkini mengenai cuaca di Sembalun, Anda dapat memeriksa situs prakiraan cuaca atau mengunduh aplikasi cuaca terkait."
+            ]
+        },
+        {
+            "tag": "penginapan",
+            "patterns": [
+                "Apakah ada penginapan di Sembalun?",
+                "Tolong rekomendasikan penginapan di Sembalun.",
+                "Bagaimana cara memesan penginapan di Sembalun?",
+                "apakah ada villa di sembalun?",
+                "rekomendasikan penginapan di sembalun"
+            ],
+            "responses": [
+                "Ya, ada beberapa pilihan penginapan di Sembalun, mulai dari homestay hingga villa. Anda dapat mencari penginapan yang sesuai dengan preferensi dan anggaran Anda melalui situs pemesanan online atau menghubungi agen perjalanan terkait."
+            ]
+        },
+        {
+            "tag": "wisata_lainnya",
+            "patterns": [
+                "Selain Gunung Rinjani, apakah ada tempat wisata lain di Sembalun?",
+                "Apakah ada objek wisata alam lain di sekitar Sembalun?",
+                "apakah ada wisata alam lain di sembalun?",
+                "wisata apa saja yang ada di sembalun?",
+                "selain gunung rinjani, wisata apa saja yang ada di gunung rinjani?"
+            ],
+            "responses": [
+                "Selain Gunung Rinjani, Anda juga dapat mengunjungi Bukit Selong, Danau Segara Anak, Bukit Pergasingan, Air Terjun Mangku Sakti, dan taman surga rinjani. Semua tempat ini menawarkan keindahan alam yang menakjubkan."
+            ]
+        },
+        {
+            "tag": "kuliner",
+            "patterns": [
+                "Apa kuliner khas yang harus dicoba di Sembalun?",
+                "Ada rekomendasi makanan enak di Sembalun?",
+                "Tolong beri tahu saya tentang makanan lokal di Sembalun.",
+                "apakah ada kuliner khas di sembalun?",
+                "apakah ada makanan di wisata sembalun?"
+            ],
+            "responses": [
+                "Di Sembalun, Anda dapat mencoba makanan khas Lombok seperti ayam taliwang, plecing kangkung, sate rembiga, dan bebek betutu. Selain itu, ada juga hidangan seafood segar yang bisa dinikmati di restoran atau warung makan lokal."
+            ]
+        },
+        {
+            "tag": "fasilitas",
+            "patterns": [
+                "Apakah ada ATM di Sembalun?",
+                "Bagaimana dengan fasilitas kesehatan di Sembalun?",
+                "Apakah ada minimarket di Sembalun?",
+                "bagaimana dengan fasilitas di sembalun?",
+                "apakah ada fasilitas ATM di sembalun?"
+            ],
+            "responses": [
+                "Di Sembalun, terdapat beberapa ATM yang tersedia di beberapa titik. Fasilitas kesehatan seperti puskesmas dan klinik juga tersedia di sekitar Sembalun. Terkait minimarket, ada beberapa toko kecil yang menyediakan barang kebutuhan sehari-hari."
+            ]
+        },
+        {
+            "tag": "transportasi",
+            "patterns": [
+                "Bagaimana cara mencapai Sembalun dari Bandara Internasional Lombok?",
+                "Apakah ada angkutan umum menuju Sembalun?",
+                "Bagaimana transportasi di Sembalun?",
+                "apakah ada kendaraan umum menuju sembalun?",
+                "apakah ada transportasi di sembalun?"
+            ],
+            "responses": [
+                "Untuk mencapai Sembalun dari Bandara Internasional Lombok, Anda dapat menggunakan taksi atau menyewa kendaraan pribadi. Jika Anda ingin menggunakan angkutan umum, Anda dapat naik bus atau travel menuju Mataram, kemudian melanjutkan dengan angkutan umum seperti angkot atau ojek menuju Sembalun. Di Sembalun sendiri, transportasi umum terbatas, tetapi Anda dapat menyewa ojek atau kendaraan untuk menjelajahi area sekitar."
+            ]
+        },
+        {
+            "tag": "acara",
+            "patterns": [
+                "Apakah ada acara atau festival khusus di Sembalun?",
+                "Apa acara budaya yang bisa saya saksikan di Sembalun?",
+                "apakah ada festival khusus di sembalun?",
+                "apakah terdapat acara acara khusus di sembalun",
+                "coba paparkan festifal khusus sembalun"
+            ],
+            "responses": [
+                "Di Sembalun, terdapat beberapa acara atau festival budaya yang diselenggarakan secara periodik. Misalnya, ada Festival Bau Nyale yang merupakan tradisi unik masyarakat Suku Sasak di Lombok. Acara ini biasanya dilangsungkan pada bulan Februari atau Maret. Selain itu, ada juga acara adat lokal yang bisa Anda saksikan jika sedang beruntung."
+            ]
+        },
+        {
+            "tag": "rekreasi",
+            "patterns": [
+                "Apakah ada tempat rekreasi atau taman di Sembalun?",
+                "Apa aktivitas rekreasi yang bisa dilakukan di Sembalun?",
+                "apakah ada taman di sembalun?",
+                "apakah ada tempat rekreasi di sembalun?",
+                "tempat rekreasi seperti apa saja yang ada di sembalun"
+            ],
+            "responses": [
+                "Di Sembalun, Anda dapat mengunjungi Taman Nasional Gunung Rinjani yang menawarkan banyak aktivitas rekreasi, seperti trekking, camping, atau hiking. Selain itu, Anda juga dapat menjelajahi area sekitar dan menikmati pemandangan alam yang indah."
+            ]
+        },
+        {
+            "tag": "pengalaman",
+            "patterns": [
+                "Apa pengalaman yang tidak boleh dilewatkan di Sembalun?",
+                "Apa yang membuat Sembalun istimewa?",
+                "Tolong beri tahu saya pengalaman unik di Sembalun.",
+                "pengalaman seperti apa yang di dapatkan jika pergi ke sembalun",
+                "apa yang membuat liburan ke sembalun menjadi berkesan"
+            ],
+            "responses": [
+                "Salah satu pengalaman unik dan berkesan di Sembalun adalah mendaki Gunung Rinjani. Dengan pemandangan yang spektakuler dan tantangan yang menguji fisik dan mental, pendakian ini akan memberikan pengalaman tak terlupakan. Selain itu, Anda juga dapat menjelajahi keindahan alam sekitar, seperti mengunjungi air terjun, melihat matahari terbit di bukit, atau berinteraksi dengan masyarakat lokal untuk memahami budaya dan kehidupan sehari-hari mereka."
+            ]
+        },
+        {
+            "tag": "paket_wisata",
+            "patterns": [
+                "Apakah ada paket wisata yang ditawarkan untuk Sembalun?",
+                "Bagaimana cara mendapatkan paket wisata ke Sembalun?",
+                "dimanakah saya bisa mendapatka paket wisata sembalun",
+                "dimanakah saya bisa mendapatkan informasi atau paket wisata sembalun",
+                "bagaimanakah cara memesan paket wisata sembalun"
+            ],
+            "responses": [
+                "Terdapat beberapa agen perjalanan yang menawarkan paket wisata ke Sembalun. Anda dapat mencari informasi dan memesan paket wisata melalui agen perjalanan online atau menghubungi agen perjalanan lokal yang berbasis di Lombok. Pastikan untuk memilih paket wisata yang sesuai dengan minat dan anggaran Anda."
+            ]
+        },
+        {
+            "tag": "waktu_terbaik",
+            "patterns": [
+                "Kapan waktu terbaik untuk mengunjungi Sembalun?",
+                "Kapan musim terbaik untuk mendaki Gunung Rinjani?",
+                "apakah untuk mendaki Gunung Rinjani perlu memikirkan waktu terbaik?",
+                ""
+            ],
+            "responses": [
+                "Waktu terbaik untuk mengunjungi Sembalun adalah pada musim kemarau antara bulan Mei hingga Oktober. Sedangkan untuk mendaki Gunung Rinjani, musim terbaik adalah antara bulan April hingga November, ketika cuaca cenderung kering dan stabil. Namun, sebaiknya periksa prakiraan cuaca dan kondisi terkini sebelum melakukan perjalanan."
+            ]
+        },
+        {
+            "tag": "persyaratan_pendakian",
+            "patterns": [
+                "Apa persyaratan yang harus dipenuhi untuk mendaki Gunung Rinjani?",
+                "Apa saja dokumen yang diperlukan untuk mendaki Gunung Rinjani?"
+            ],
+            "responses": [
+                "Untuk mendaki Gunung Rinjani, Anda perlu memenuhi beberapa persyaratan, seperti membawa kartu identitas, surat izin pendakian, dan memiliki fisik yang sehat dan cukup stamina. Selain itu, penting untuk menggunakan jasa agen pendakian yang berlisensi dan mengikuti peraturan yang ditetapkan oleh Taman Nasional Gunung Rinjani."
+            ]
+        },
+        {
+            "tag": "keamanan",
+            "patterns": [
+                "Apakah Sembalun aman untuk wisatawan?",
+                "Bagaimana dengan keamanan di Sembalun?"
+            ],
+            "responses": [
+                "Sembalun umumnya aman untuk wisatawan. Namun, seperti perjalanan ke destinasi lainnya, tetaplah waspada dan ikuti pedoman keamanan umum. Hindari pergi ke daerah yang dianggap berisiko, simpan barang berharga dengan aman, dan ikuti petunjuk dan instruksi dari otoritas setempat. Jika Anda merasa ragu atau memiliki kekhawatiran, selalu konsultasikan dengan pihak berwenang atau agen perjalanan."
+            ]
+        },
+        {
+            "tag": "budaya_lokal",
+            "patterns": [
+                "Bagaimana dengan budaya lokal di Sembalun?",
+                "Apakah ada tradisi atau adat istiadat khas di Sembalun?"
+            ],
+            "responses": [
+                "Sembalun memiliki budaya lokal yang kaya dan unik. Masyarakat Sembalun umumnya adalah suku Sasak yang memiliki tradisi dan adat istiadat tersendiri. Anda dapat menjelajahi desa-desa tradisional, berinteraksi dengan penduduk setempat, dan mengenal lebih dekat tentang kehidupan sehari-hari, seni, dan kerajinan lokal. Jangan lupa untuk menghormati dan menghargai kebudayaan mereka selama mengunjungi Sembalun."
+            ]
+        },
+        {
+            "tag": "informasi_tambahan",
+            "patterns": [
+                "Apakah ada informasi tambahan yang perlu saya ketahui tentang Sembalun?",
+                "Apa saja hal-hal penting yang harus diketahui sebelum mengunjungi Sembalun?"
+            ],
+            "responses": [
+                "Sebelum mengunjungi Sembalun, pastikan Anda memiliki persiapan yang matang. Selain mengenai destinasi dan aktivitas, penting untuk memeriksa persyaratan perjalanan, mempersiapkan perlengkapan yang sesuai, memahami aturan dan regulasi yang berlaku di Taman Nasional Gunung Rinjani, serta mengikuti panduan dan petunjuk dari pihak berwenang. Pastikan juga untuk memperhatikan kebersihan lingkungan dan menjaga kelestarian alam saat menjelajahi Sembalun."
+            ]
+        },
+        {
+                "tag": "salam",
+                "patterns": [
+                    "Hai"
+                ],
+                "responses": [
+                    "Hai. selamat datang di chat boot pariwisata sembalun! ada yang bisa saya bantu?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "hallo",
+                "patterns": [
+                    "Hallo"
+                ],
+                "responses": [
+                    "Hallo. selamat datang di chat boot pariwisata sembalun! ada yang bisa saya bantu?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "pagi",
+                "patterns": [
+                    "Selamat pagi"
+                ],
+                "responses": [
+                    "Selamat pagi. Selamat datang di chat boot pariwisata sembalun! ada yang bisa saya bantu?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "siang",
+                "patterns": [
+                    "Selamat siang"
+                ],
+                "responses": [
+                    "Selamat siang. selamat datang di chat boot pariwisata sembalun! ada yang bisa saya bantu?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "sore",
+                "patterns": [
+                    "Selamat sore"
+                ],
+                "responses": [
+                    "Selamat sore. selamat datang di chat boot pariwisata sembalun. ada yang bisa saya bantu?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "malam",
+                "patterns": [
+                    "Selamat malam"
+                ],
+                "responses": [
+                    "Selamat malam. selamat datang di chat boot pariwisata sembalun. ada yang bisa saya bantu?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hi"
+                ],
+                "responses": [
+                    "Hi. Welcome to the sembalun tourism chatbot. is there anything i can help?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "heyy",
+                "patterns": [
+                    "Hey"
+                ],
+                "responses": [
+                    "Hello! Welcome to the Sembalun Tourism Chatbot. How can I assist you today?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "perpisahan",
+                "patterns": [
+                    "Sampai jumpa"
+                ],
+                "responses": [
+                    "Sampai jumpa! Semoga Anda memiliki hari yang menyenangkan di Sembalun. Jika Anda memiliki pertanyaan lain di masa depan, jangan ragu untuk bertanya"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "tinggal",
+                "patterns": [
+                    "Selamat tinggal"
+                ],
+                "responses": [
+                    "Selamat tinggal! semoga harimu menyenangkan"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "Terimakasih",
+                "patterns": [
+                    "Terimakasih"
+                ],
+                "responses": [
+                    "Terimakasih kembali"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "terimakasihh",
+                "patterns": [
+                    "terimakasih sudah memberikan jawaban"
+                ],
+                "responses": [
+                    "sama-sama senang bisa membantu"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "terimakasihhh",
+                "patterns": [
+                    "terimakasih sudah berdiskusi dengan saya"
+                ],
+                "responses": [
+                    "sama-sama senang bisa membantu"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "terimakasihe",
+                "patterns": [
+                    "terimakasih atas informasi yang di berikan "
+                ],
+                "responses": [
+                    "Sama-sama! Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "terimakasiha",
+                "patterns": [
+                    "terimakasih atas informasi yang di berikan, sangat membantu"
+                ],
+                "responses": [
+                    "Sama-sama! Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "thankyoui",
+                "patterns": [
+                    "Thanks a lot"
+                ],
+                "responses": [
+                    "You're welcome! I'm glad I could help. If you have any more questions about tourism in Sembalun, feel free to ask."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "thankyouo",
+                "patterns": [
+                    "thankyou"
+                ],
+                "responses": [
+                    "You're welcome! I'm glad I could help"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "thankyour",
+                "patterns": [
+                    "thankyou very much"
+                ],
+                "responses": [
+                    "You're welcome! I'm glad I could help. If you have any more questions about tourism in Sembalun, feel free to ask. Wishing you a journey filled with beauty and unforgettable memories!"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "later",
+                "patterns": [
+                    "Goodbye"
+                ],
+                "responses": [
+                    "Goodbye! Have a great day and enjoy your time in Sembalun. If you have more questions in the future, feel free to ask"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "see",
+                "patterns": [
+                    "See you later"
+                ],
+                "responses": [
+                    "see you again. Have a nice day"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "Goodbyep",
+                "patterns": [
+                    "See you next time"
+                ],
+                "responses": [
+                    "see you. Have a great day and enjoy your time in Sembalun"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "Goodbyel",
+                "patterns": [
+                    "Bye"
+                ],
+                "responses": [
+                    "Bye. Happy holidays on sembalun tourism"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "eror",
+                "patterns": [
+                    ""
+                ],
+                "responses": [
+                    "error",
+                    "i don't understand",
+                    "give me question anithyng for sembalun"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "sembaluna",
+                "patterns": [
+                    "apa itu sembalun?"
+                ],
+                "responses": [
+                    "Sembalun adalah sebuah kecamatan di kabupaten Lombok Timur, Nusa Tenggara Barat, Indonesia. Kecamatan Sembalun memiliki luas wilayah 217,08 Km2,Desa Sembalun-desa asri dari enam desa yang berada di Kecamatan Sembalun, pada 2016 menyandang predikat sebagai pemenang World's Best Halal Honeymoon Destination yang dianugerahkan pada International Travel Week Abu Dhabi"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "sembalune",
+                "patterns": [
+                    "ceritakan tentang sembalun"
+                ],
+                "responses": [
+                    "Sembalun adalah sebuah kecamatan di kabupaten Lombok Timur, Nusa Tenggara Barat, Indonesia. Kecamatan Sembalun memiliki luas wilayah 217,08 Km2,Desa Sembalun-desa asri dari enam desa yang berada di Kecamatan Sembalun, pada 2016 menyandang predikat sebagai pemenang World's Best Halal Honeymoon Destination yang dianugerahkan pada International Travel Week Abu Dhabi"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "sembalunr",
+                "patterns": [
+                    "what is the sembalun"
+                ],
+                "responses": [
+                    "Sembalun is a sub-district in East Lombok district, West Nusa Tenggara, Indonesia. Sembalun sub-district has an area of ​​217.08 Km2, Sembalun Village is a beautiful village out of six villages in Sembalun District, in 2016 it was named the winner of the World's Best Halal Honeymoon. Destination awarded at International Travel Week Abu Dhabi"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "lokasi_sembalunq",
+                "patterns": [
+                    "sembalun dimana ?"
+                ],
+                "responses": [
+                    "sembalun berada di bawah kaki gunung rinjani, didesa sembalun lombok timur,Nusa tenggara Barat"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "lokasi_sembalunt",
+                "patterns": [
+                    "lokasinya dimana?"
+                ],
+                "responses": [
+                    "sembalun berada di bawah kaki gunung rinjani, didesa sembalun lombok timur,Nusa tenggara Barat"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "lokasi sembaluno",
+                "patterns": [
+                    "where is the location"
+                ],
+                "responses": [
+                    "Sembalun is located at the foot of Mount Rinjani, in the village of Sembalun, East Lombok, West Nusa Tenggara"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "wilayah_sembalunr",
+                "patterns": [
+                    "wilayah administrasi sembalun ?"
+                ],
+                "responses": [
+                    "Kecamatan ini terdiri dari 6 desa yaitu Desa Sembalun Bumbung, Desa Sembalun Lawang, Desa Sajang, Desa Bilok Petung, Desa Sembalun, dan Desa Sembalun Timba Gading"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "wilayah_sembalun",
+                "patterns": [
+                    "administrasi wilayah sembalun?"
+                ],
+                "responses": [
+                    "Kecamatan ini terdiri dari 6 desa yaitu Desa Sembalun Bumbung, Desa Sembalun Lawang, Desa Sajang, Desa Bilok Petung, Desa Sembalun, dan Desa Sembalun Timba Gading"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "wilayah_sembalunp",
+                "patterns": [
+                    "administration of the Sembalun area?"
+                ],
+                "responses": [
+                    "This sub-district consists of 6 villages namely Sembalun Bumbung Village, Sembalun Lawang Village, Sajang Village, Bilok Petung Village, Sembalun Village and Sembalun Timba Gading Village."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "perbatasan_sembaluna",
+                "patterns": [
+                    "wilayah perbatasan sembalun?"
+                ],
+                "responses": [
+                    "Secara geografis Kecamatan Sembalun,di sebelah utara berbatasan dengan Desa Sembalun Timba Gading dan Desa Madayin Kecamatan Sambelia,di sebelah selatan berbatasan dengan Desa Belanting Kecamatan Sambelia,di sebelah barat dengan Kabupaten Lombok Utara,di sebelah Timur berbatasan dengan Desa Sembalun Bumbung."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "perbatasan_sembaluno",
+                "patterns": [
+                    "the border area of ​​Sembalun?"
+                ],
+                "responses": [
+                    "Geographically, Sembalun District, to the north is bordered by Sembalun Timba Gading Village and Madayin Village, Sambelia District, to the south by Belanting Village, Sambelia District, to the west by North Lombok Regency, to the east by Sembalun Bumbung Village.."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "wisata_sembalunu",
+                "patterns": [
+                    "apa saja wisata sembalun?"
+                ],
+                "responses": [
+                    "ada kereta gantung,bisa metik strawbery langsung,ada pemandian air hangat,pemandangan gunung rinjani dari dekat dan lain lain"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "wisata_sembalunp",
+                "patterns": [
+                    "what tours are there?"
+                ],
+                "responses": [
+                    "there is a cable car, you can pick strawberries directly, there is a warm water bath, a close view of Mount Rinjani and so on"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "mengapa_sembalunl",
+                "patterns": [
+                    "Why do you have to go to Sembalun?"
+                ],
+                "responses": [
+                    "in Sembalun the air is still natural, you can also go camping and see the beautiful hill views that spoil our eyes"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "mengapa sembalun",
+                "patterns": [
+                    "apa yang di banggakan di sembalun"
+                ],
+                "responses": [
+                    "di sembalun udara nya masih alami , bisa juga camping dan melihat pemnadangan bukit yang indah yang memanjakan mata kita"
+                ],
+                "context": [
+                    ""
+                ]
+            }
+        ]
+    }
